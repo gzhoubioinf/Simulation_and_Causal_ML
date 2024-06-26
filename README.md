@@ -1,6 +1,7 @@
 
 
-# Capture of Causal Genetic Mechanisms by Machine Learning Methods
+# Capture of causal genetic mechanisms by machine learning methods for predicting bacterial traits based on genetic variation
+
 
 ## Overview
 This project evaluates the effectiveness of machine learning (ML) algorithms in identifying causal genetic mechanisms that influence bacterial traits. Using real genomic sequencing data from *Klebsiella pneumoniae*, we simulate quantitative phenotypes by varying the number of causal loci and the sizes of their effects. Our analysis includes four popular ML models: Elastic Nets, Random Forest, XGBoost, and Neural Networks.
