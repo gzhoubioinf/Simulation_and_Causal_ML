@@ -36,7 +36,7 @@ pip install -r requirements.txt
 Data Preparation
 Utilize the provided scripts to prepare your dataset for analysis:
 
-Generate PLINK Data Files:
+#### Generate PLINK Data Files:
 
 ```bash
 python generate_tfam_tped_data.py
@@ -44,20 +44,20 @@ python generate_tfam_tped_data.py
 ```
 Processes genomic data to generate unitigs.tped and unitigs.tfam for use with PLINK.
 
-Run GWAS Simulations:
+#### Run GWAS Simulations:
 ```bash
 bash gwas_simu.sh
 ```
 Performs genetic simulations using PLINK and GCTA, outputting results to the pheno data directory.
 
-Generate SNP Lists:
+#### Generate SNP Lists:
 
 ```bash
 python generate_snplist.py
 ```
 Creates .snplist files based on specified sample sizes for further analysis.
 
-Running Machine Learning Models
+#### Running Machine Learning Models
 Execute the main script and specific model scripts:
 ```bash
 python main.py
